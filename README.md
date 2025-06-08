@@ -1,7 +1,5 @@
 # 🛒 LCF Store | Laravel + Docker + Tailwind
 
-<img src="storage/app/public/readme/img-readme.png" alt="Imagem do sistema">
-
 Este projeto é um CRUD simples de produtos desenvolvido com **Laravel** utilizando **Laravel Sail** (Docker) para ambiente de desenvolvimento e **Tailwind CSS.**
 
 ---
