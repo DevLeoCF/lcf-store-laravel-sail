@@ -1,13 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="max-w-4xl mx-auto m-4">
-        @if (session('success'))
-            <div class="mb-4 p-4 bg-green-100 text-green-800 rounded">
-                {{ session('success') }}
-            </div>
-        @endif
-    </div>
     <div class="max-w-4xl mx-auto bg-white rounded-lg shadow-md overflow-hidden">
         @if ($produto->imagem)
             <div class="mb-4 flex justify-center">
