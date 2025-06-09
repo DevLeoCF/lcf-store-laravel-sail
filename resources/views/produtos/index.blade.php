@@ -3,14 +3,8 @@
 @section('content')
 <div class="max-w-6xl mx-auto px-4 py-4">
 
-    @if (session('success'))
-        <div class="mb-4 p-4 bg-green-100 text-green-800 rounded">
-            {{ session('success') }}
-        </div>
-    @endif
-
     <div class="flex justify-end mb-4">
-        <a href="{{ route('produtos.create') }}" class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded">
+        <a href="{{ route('produtos.create') }}" class="bg-zinc-900 hover:bg-zinc-800 text-white px-4 py-2 rounded">
             + Novo Produto
         </a>
     </div>
